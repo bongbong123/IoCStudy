@@ -16,9 +16,9 @@ public class Config {
         return member1;
     }
 
-    @Bean(name = "hello") //이런식으로 어노테이션에 이름을 주면 해당 클래스를 빈으로 등록할 때 입력한 이름으로 빈의 이름을 변경할 수 있음.
-    public Member member2(){
-        //Constructor Injection (생성자를 이용한 의존성 주입)
-        return new Member("전우치", "도사");
-    }
+//    @Bean(name = "hello") //이런식으로 어노테이션에 이름을 주면 해당 클래스를 빈으로 등록할 때 입력한 이름으로 빈의 이름을 변경할 수 있음.
+//    public Member member2(){
+//        //Constructor Injection (생성자를 이용한 의존성 주입)
+//        return new Member("전우치", "도사");
+//    }
 }
